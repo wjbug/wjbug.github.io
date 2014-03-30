@@ -1,0 +1,25 @@
+# Eclipse #
+###########
+.classpath
+.project
+.settings
+*/bin
+
+# Maven #
+#########
+target
+
+# TestNG #
+##########
+test-output
+
+# IntelliJ IDEA #
+#################
+.idea
+*.iml
+*.ipr
+*.iws
+
+# OS X #
+########
+.DS_Store
