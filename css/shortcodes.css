@@ -1,0 +1,301 @@
+	#shortcodes{
+		margin:0 auto;
+	}
+
+
+
+
+	#shortcodes .inner_s:last-child{
+		margin-bottom:75px;
+	}
+
+	#shortcodes .inner_s{
+		padding:30px 0;
+		width:100%;
+		max-width: 1170px;
+		margin:0 auto;
+		text-align:center;
+	}
+
+	.cont{
+		width:100%;
+		position: relative;
+		margin:20px auto;
+	}
+
+	.l-header{
+		margin-bottom:25px;
+		margin-top:25px;
+		padding-top:0;
+		font-size:23px;
+	}
+
+	.mrg{
+		margin:15px auto;
+	}
+
+
+/* Tabs */
+
+	.tab-pane{
+		padding:20px;
+		border-left:1px solid #ddd;
+		border-right:1px solid #ddd;
+		border-bottom:1px solid #ddd;
+	}
+
+	.nav-tabs li a{
+		line-height: 20px;
+	}
+
+	.nav-tabs li a:hover{
+		border-top: 2px solid gray;
+		color:gray;
+	}
+
+	.nav-tabs li.active a{
+		border-top: 2px solid gray;
+		color:gray;
+	}
+
+	.nav-tabs li.active a:hover{
+		border-top: 2px solid gray;
+		color:gray;
+	}
+
+	.nav-tabs li a{
+		color:black;
+	}
+
+/* Side notes for calling out things
+-------------------------------------------------- */
+ 
+/* Base styles (regardless of theme) */
+
+	.bs-callout {
+	  padding: 15px 30px 15px 15px;
+	  border-left: 3px solid #eee;
+	}
+
+	.bs-callout h4 {
+	  margin-top: 0;
+	}
+
+	.bs-callout p:last-child {
+	  margin-bottom: 0;
+	}
+
+	.bs-callout code,
+	.bs-callout .highlight {
+	  background-color: #fff;
+	}
+	 
+/* Themes for different contexts */
+
+	.bs-callout-danger {
+	  background-color: #fcf2f2;
+	  border-color: #dFb5b4;
+	}
+
+	.bs-callout-warning {
+	  background-color: #fefbed;
+	  border-color: #f1e7bc;
+	}
+
+	.bs-callout-info {
+	  background-color: #f0f7fd;
+	  border-color: #d0e3f0;
+	}
+
+	.bs-callout h3{
+		margin:5px 0;
+		padding:0;
+	}
+
+	.callout-content{
+		float: left;
+	}
+
+	.callout-btn{
+		display:block;
+		margin:20px auto;
+	}
+
+/* Alert Message */
+
+	.alert .close{
+		outline:none;
+	}
+
+/* Themes for different contexts */
+
+	ul.buttons li{
+		display: inline-block;
+		margin:0 10px;
+	}
+
+	ul.buttons li:first-child{
+		margin-left:0;
+	}
+
+/* Progress Bars */
+
+	.progress {
+		height: 15px;
+		border-radius:10px;
+		margin-top:5px;
+		margin-bottom:5px;
+	}
+
+	.progress .progress-bar{
+		border-radius:10px;
+	}
+
+	.progress-bars .bar-texts h5.bar-header{
+		float:left;
+		font-size:15px;
+		margin-bottom:0px;
+		padding-top:0;
+	}
+
+	.progress-bars .bar-texts h5.bar-text{
+		float:right;
+		font-size:15px;
+		margin-bottom:0px;
+	}
+
+/* Social Buttons */
+
+
+	a.social{
+		width:40px;
+		height:40px;
+		display: inline-block;
+		text-align: center;
+		line-height: 40px;
+		background:#fafafa;
+		color:#404040;
+		font-size:18px;
+		margin-right:5px;
+		-webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+		transition: all 0.3s;
+	}
+
+	a.social:hover{
+		color:white;
+	}
+
+/* Social Hovers */
+
+	a.mail:hover{
+		background:#404040;
+	}
+
+	a.facebook:hover{
+		background:#4b6ea8;
+	}
+
+	a.twitter:hover{
+		background:#4fd5f8;
+	}
+
+	a.youtube:hover{
+		background:#d84939;
+	}
+
+	a.vimeo:hover{
+		background:#96d3f0;
+	}
+
+	a.pinterest:hover{
+		background:#d83633;
+	}
+
+	a.linkedin:hover{
+		background:#0189c3;
+	}
+
+	a.flickr:hover{
+		background:#84979e;
+	}
+
+	a.dropbox:hover{
+		background:#1e81c2;
+	}
+
+	a.instagram:hover{
+		background:#e1d4b8;
+	}
+
+	a.tumblr:hover{
+		background:#345365;
+	}
+
+	a.skype:hover{
+		background:#00bbf0;
+	}
+
+	a.google-plus:hover{
+		background:#da2200;
+	}
+
+	a.twitter-square:hover{
+		background:#4fd5f8;
+	}
+
+	a.rss:hover{
+		background:#fb9c00;
+	}
+
+	a.apple:hover{
+		background:#404040;
+	}
+
+	a.windows:hover{
+		background:#0063f4;
+	}
+
+	a.dribbble:hover{
+		background:#f2689c;
+	}
+
+	a.android:hover{
+		background:#80da23;
+	}
+
+	a.html5:hover{
+		background:#ec6432;
+	}
+
+	a.css3:hover{
+		background:#3a88d0;
+	}
+
+	a.pagelines:hover{
+		background:#4f98df;
+	}
+
+	a.gittip:hover{
+		background:#7c6035;
+	}
+
+
+/* Columns */
+
+	.columns{
+		padding:10px 0;
+		border-bottom:1px solid #f5f5f5;
+	}
+
+	.fiven{
+		width: 20%;
+		padding:0 15px;
+		float:left;
+	}
+
+
+
+
+
+

@@ -1,0 +1,62 @@
+
+/* Text Colors */
+
+	.colored,
+	.nav-menu li a:hover,
+	.nav-menu li.active a,
+	.nav-menu li a:focus,
+	.f-box:hover .f-icon i,
+	.team-members .member-details .member-position,
+	.prices .tables .active .price-table-top .price-circle p.price,
+	.prices .tables .active .price-table-top .price-circle p.timely,
+	.pricing-table:hover .price-table-top .price-circle p.price,
+	.pricing-table:hover .price-table-top .price-circle p.timely,
+	#site-socials .top-button:hover,
+	footer p.copyright a:hover,
+	.why-oxygen-accordion .accordion-toggle:hover,
+	.dark-nav .nav-menu li a:hover,
+	ul.nav ul.dropdown-menu li a:hover{
+		color: #9b59b6 ;
+	}
+
+/* Background Colors */
+
+	.colored-bg,
+	a.positive-m:hover,
+	.why-oxygen-accordion span.positive-s,
+	.prices .tables .active .table-inner a.price-buy-now,
+	.table-inner a.price-buy-now:hover,
+	#map .google-map-big-button:hover,
+	.form-btn:hover,
+	#history ul.timeline li.note:hover,
+	#history ul.timeline li.note:hover:after,
+	.prices .tables .active a.price-table-img{
+		background-color:#9b59b6 ;
+	}
+
+/* Border Colors */
+
+	.dark-nav .nav-menu li a:hover,
+	.colored-border,
+	.nav-menu li.active a,
+	.nav-menu li a:hover,
+	.nav-menu li a:focus,
+	.form-btn:hover{
+		border-color:#9b59b6 ;
+	}
+
+/* Border Right Colors */
+
+	.colored-border-right,
+	#history ul.timeline li.note:hover span.note-arrow,
+	#history ul.timeline li.note:hover span.note-arrow:after{
+		border-right-color: #9b59b6 ; 
+	}
+
+/* Border Left Colors */
+
+	.colored-border-left,
+	#history ul.timeline li.note:hover:nth-of-type(2n) span.note-arrow,
+	#history ul.timeline li.note:hover:nth-of-type(2n) span.note-arrow:after{
+		border-left-color: #9b59b6 ; 
+	}
