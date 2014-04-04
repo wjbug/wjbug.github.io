@@ -674,6 +674,9 @@
 	#slides .slides-container div{
 		background-position:center center;
 		background-attachment: fixed;
+  		background-position: 50%;
+  		background-repeat: no-repeat;
+  		background-size: cover;
 	}
 
 	#slides .slides-container .image1{
