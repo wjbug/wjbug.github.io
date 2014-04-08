@@ -580,7 +580,7 @@ $(document).ready(function() {
 
 			// Map Coordination
 
-			var latlng = new google.maps.LatLng(41.862274,-87.661328);
+			var latlng =  new google.maps.LatLng(52.211758,20.982062);
 
 			// Map Options
 			var myOptions = {
@@ -599,8 +599,7 @@ $(document).ready(function() {
 		  	/* ========= First Marker ========= */
 
 		  	// First Marker Coordination
-			
-			var myLatlng = new google.maps.LatLng(41.856774,-87.679928);
+			var myLatlng = new google.maps.LatLng(52.211758,20.982062);
 
 			// Your Texts 
 
@@ -609,12 +608,12 @@ $(document).ready(function() {
 			  '</div>'+
 			  '<h4>' +
 
-			  'Office 1'+
+			  'MIMUW'+
 
 			  '</h4>'+
 			  '<p>' +
 
-			  'Your description is here.' +
+			  'Wydział Matematyki Informatyki i Mechaniki Uniwersytetu Warszawskiego' +
 
 			  '</p>'+
 			  '</div>';
@@ -623,7 +622,7 @@ $(document).ready(function() {
 			var marker = new google.maps.Marker({
 				  position: myLatlng,
 				  map: map,
-				  title: 'Hello World!',
+				  title: 'MIMUW',
 				  icon: image
 			  });
 
@@ -642,7 +641,7 @@ $(document).ready(function() {
 
 
 
-			 /* ========= Second Marker ========= */
+			 /* ========= Second Marker ========= 
 
 			 // Second Marker Coordination
 
@@ -680,7 +679,7 @@ $(document).ready(function() {
 				infowindowSecond.open(map,markerSecond);
 			  });
 
-			 /* ========= End Second Marker ========= */
+			  ========= End Second Marker ========= */
 		
 		})
 
