@@ -1315,7 +1315,7 @@
 	}
 
 /* Notes */
-
+	
 	#history ul.timeline li.note{
 		width:46%;
 		min-height: 100px;
@@ -1464,6 +1464,15 @@
 	}
 
 /* History Note Inners */
+
+	.history_note_ul {
+		font-size:13px;
+		color:#949494;
+		padding-left: 14px; 
+		-webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+		transition: all 0.3s;
+	}
 	
 	li.note p,
 	li.note span,
@@ -1532,6 +1541,8 @@
 		background:#3498db;
 	}
 
+	#history ul.timeline li.note:hover .history_note_ul,
+	#history ul.timeline li.note:hover .colored,
 	#history ul.timeline li.note:hover p.history-date,
 	#history ul.timeline li.note:hover p.history-head,
 	#history ul.timeline li.note:hover p.history-desc{
