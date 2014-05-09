@@ -580,11 +580,11 @@ $(document).ready(function() {
 
 			// Map Coordination
 
-			var latlng =  new google.maps.LatLng(52.211758,20.982062);
+			var latlng =  new google.maps.LatLng(52.221885, 20.995124);
 
 			// Map Options
 			var myOptions = {
-				zoom: 15,
+				zoom: 14,
 				center: latlng,
 				mapTypeId: google.maps.MapTypeId.ROADMAP,
 				disableDefaultUI: true,
@@ -631,7 +631,7 @@ $(document).ready(function() {
 			  content: contentString
 			  });
 
-			  
+			infowindow.open(map,marker); 
 			 google.maps.event.addListener(marker, 'click', function() {
 				infowindow.open(map,marker);
 			  });
@@ -641,11 +641,11 @@ $(document).ready(function() {
 
 
 
-			 /* ========= Second Marker ========= 
+			 /* ========= Second Marker ========= */
 
 			 // Second Marker Coordination
 
-			 var myLatlngSecond = new google.maps.LatLng(41.863774,-87.639928);
+			 var myLatlngSecond = new google.maps.LatLng(52.221993, 21.006988);
 
 			 // Your Texts
 
@@ -654,12 +654,12 @@ $(document).ready(function() {
 			  '</div>'+
 			  '<h4>' +
 
-			  'Office 2'+
+			  'MINI'+
 
 			  '</h4>'+
 			  '<p>' +
-
-			  'Your description is here.' +
+			 
+			  'Wydział Matematyki i Nauk Informacyjnych Politechniki Warszawskiej' +
 
 			  '</p>'+
 			  '</div>';
@@ -671,15 +671,15 @@ $(document).ready(function() {
 			 var markerSecond = new google.maps.Marker({
 				  position: myLatlngSecond,
 				  map: map,
-				  title: 'Hello World!',
+				  title: 'MINI',
 				  icon: image
 			  });
-
+			 infowindowSecond.open(map,markerSecond);
 			 google.maps.event.addListener(markerSecond, 'click', function() {
 				infowindowSecond.open(map,markerSecond);
 			  });
 
-			  ========= End Second Marker ========= */
+			 /* ========= End Second Marker ========= */
 		
 		})
 

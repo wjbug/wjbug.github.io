@@ -1542,7 +1542,6 @@
 	}
 
 	#history ul.timeline li.note:hover .history_note_ul,
-	#history ul.timeline li.note:hover .colored,
 	#history ul.timeline li.note:hover p.history-date,
 	#history ul.timeline li.note:hover p.history-head,
 	#history ul.timeline li.note:hover p.history-desc{
